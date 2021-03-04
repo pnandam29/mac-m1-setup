@@ -32,8 +32,8 @@ fi
 # Update homebrew recipes
 brew update
 
-echo "Installing rosetta..." "disable this command for non M1 Chip macbooks and run..."
-softwareupdate --install-rosetta
+#echo "Installing rosetta..." "disable this command for non M1 Chip macbooks and run..."
+#softwareupdate --install-rosetta
 
 # Install GNU core utilities (those that come with OS X are outdated)
 #brew tap homebrew/dupes
