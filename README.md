@@ -1,1 +1,1 @@
-# mac-m1-setup
+# New Mac Setup
