@@ -1,1 +1,1 @@
-# New Mac Setup
+# New Mac provisioning for plivo
