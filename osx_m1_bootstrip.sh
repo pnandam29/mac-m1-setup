@@ -19,7 +19,7 @@ echo "Starting bootstrapping"
 
 #sudo -v
 echo "installing xcode"
-xcode-select install 
+xcode-select --install 
 
 # Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
@@ -40,11 +40,11 @@ softwareupdate --install-rosetta
 # Install GNU core utilities (those that come with OS X are outdated)
 #brew tap homebrew/dupes
 brew install coreutils
-#brew install gnu-sed #--with-default-names
-#brew install gnu-tar #--with-default-names
-#brew install gnu-indent #--with-default-names
-#brew install gnu-which #--with-default-names
-#brew install gnu-grep #--with-default-names
+brew install gnu-sed #--with-default-names
+brew install gnu-tar #--with-default-names
+brew install gnu-indent #--with-default-names
+brew install gnu-which #--with-default-names
+brew install gnu-grep #--with-default-names
 
 
 brew install gnu-indent
