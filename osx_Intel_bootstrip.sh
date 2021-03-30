@@ -36,15 +36,13 @@ brew update
 #softwareupdate --install-rosetta
 
 # Install GNU core utilities (those that come with OS X are outdated)
-#brew tap homebrew/dupes
+brew tap homebrew/dupes
 brew install coreutils
-#brew install gnu-sed #--with-default-names
-#brew install gnu-tar #--with-default-names
-#brew install gnu-indent #--with-default-names
-#brew install gnu-which #--with-default-names
-#brew install gnu-grep #--with-default-names
-
-
+brew install gnu-sed #--with-default-names
+brew install gnu-tar #--with-default-names
+brew install gnu-indent #--with-default-names
+brew install gnu-which #--with-default-names
+brew install gnu-grep #--with-default-names
 brew install gnu-indent
 brew install gnu-sed
 brew install gnutls
@@ -54,7 +52,7 @@ brew install gawk
 brew install gsed
 brew install gnu-indent
 brew install gnu-which
-#brew install tar
+brew install tar
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
@@ -129,7 +127,7 @@ CASKS=(
     docker
     firefox
     flux
-    #google-chrome
+    google-chrome
     google-drive
     gpg-suite-pinentry
     wireshark
