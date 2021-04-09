@@ -126,27 +126,26 @@ brew install cask
 #for CASKS in $(<"$CASKS.txt") ; do
 
 CASKS=(
+    google-chrome
+    zoomus
+    brackets
+    slack
     postman
     dropbox
     docker
     firefox
-    flux
-    #google-chrome
-    google-drive
-    gpg-suite-pinentry
+    google-chrome
     wireshark
     iterm2
     macvim
-    skype
     slack
     spectacle
-    vagrant
-    virtualbox
-    vlc
     1password
-    zoom
-    microsoft-outlook
-    xcodes
+    vscode
+    github
+    git
+    pycharm-ce
+    atom
 )
 
 echo "Installing cask apps..."
