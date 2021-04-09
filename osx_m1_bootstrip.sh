@@ -32,7 +32,7 @@ if test ! $(which brew); then
 fi
 
 # Update homebrew recipes
-brew update
+brew install
 
 echo "Installing rosetta..." "disable this command for non M1 Chip macbooks and run..."
 softwareupdate --install-rosetta
