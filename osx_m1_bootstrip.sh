@@ -127,7 +127,6 @@ brew install cask
 
 CASKS=(
     google-chrome
-    zoomus
     brackets
     slack
     postman
@@ -139,13 +138,12 @@ CASKS=(
     iterm2
     macvim
     slack
-    spectacle
     1password
     vscode
     github
-    git
     pycharm-ce
     atom
+    tunnelblick
 )
 
 echo "Installing cask apps..."
